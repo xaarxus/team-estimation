@@ -1,0 +1,13 @@
+.container { 
+  min-height: 30px;
+  padding: 7px 17px;
+  font-size: 22px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(175, 248, 224);
+  color: rgb(75, 75, 75);
+
+  &:active {
+    background-color: rgb(154, 218, 196);
+  }
+}

@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+
+  label {
+    position: absolute;
+    top: -17px;
+    left: 10px;
+    color: rgb(109, 109, 109);
+  }
+
+  input {
+    height: 30px;
+    width: 14vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+
+    &::placeholder {
+      color: rgb(168, 164, 164);
+    }
+  }
+}
